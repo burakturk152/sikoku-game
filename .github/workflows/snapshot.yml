@@ -1,0 +1,87 @@
+name: Snapshot code to single file
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Create snapshot script
+        run: |
+          mkdir -p scripts
+          cat > scripts/snapshot.py << 'PY'
+          import os, sys, hashlib, time
+
+          INCLUDE_DIRS = ["lib", "assets/data"]
+          INCLUDE_EXTS = (".dart", ".json", ".yaml", ".yml", ".md")
+
+          OUTPUT_DIR = "_snapshots"
+          OUTPUT_LATEST = os.path.join(OUTPUT_DIR, "latest.txt")
+
+          def list_files():
+              out = []
+              for base in INCLUDE_DIRS:
+                  if not os.path.isdir(base):
+                      continue
+                  for root, _, files in os.walk(base):
+                      for f in files:
+                          if f.lower().endswith(INCLUDE_EXTS):
+                              out.append(os.path.join(root, f))
+              return sorted(out)
+
+          def read_text(p):
+              with open(p, "r", encoding="utf-8", errors="replace") as fh:
+                  return fh.read()
+
+          def main():
+              files = list_files()
+              os.makedirs(OUTPUT_DIR, exist_ok=True)
+              ts = time.strftime("%Y-%m-%d %H:%M:%S")
+
+              chunks = []
+              chunks.append(f"# SIKOKU Snapshot\\n# Timestamp: {ts}\\n# Files: {len(files)}\\n\\n")
+              for i, fp in enumerate(files, 1):
+                  rel = fp.replace("\\\\", "/")
+                  header = f"\\n\\n===== FILE {i}/{len(files)}: {rel} =====\\n"
+                  body = read_text(fp)
+                  chunks.append(header + body)
+
+              text = "".join(chunks)
+
+              with open(OUTPUT_LATEST, "w", encoding="utf-8") as out:
+                  out.write(text)
+
+              sha = hashlib.sha1(text.encode("utf-8")).hexdigest()[:10]
+              with open(os.path.join(OUTPUT_DIR, f"{sha}.txt"), "w", encoding="utf-8") as out2:
+                  out2.write(text)
+
+          if __name__ == "__main__":
+              sys.exit(main())
+          PY
+
+      - name: Run snapshot
+        run: |
+          python scripts/snapshot.py
+          echo "Snapshot created at _snapshots/latest.txt"
+
+      - name: Commit & push snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _snapshots/latest.txt _snapshots/*.txt || true
+          git commit -m "chore(snapshot): update latest snapshot" || echo "No changes to commit"
+          git push
