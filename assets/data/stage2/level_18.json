@@ -1,0 +1,451 @@
+{
+  "level": 15,
+  "difficulty": "normal",
+  "size": 8,
+  "puzzle": [
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      }
+    ],
+    [
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      }
+    ],
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      }
+    ],
+    [
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      }
+    ],
+    [
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      }
+    ],
+    [
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      }
+    ],
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      }
+    ],
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      }
+    ]
+  ],
+  "solution": [
+    [
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle"
+    ],
+    [
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle"
+    ],
+    [
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square"
+    ],
+    [
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square"
+    ],
+    [
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle"
+    ],
+    [
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle"
+    ],
+    [
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square"
+    ],
+    [
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square"
+    ]
+  ],
+  "hints": [
+    {
+      "type": "equal",
+      "cell1": [
+        4,
+        7
+      ],
+      "cell2": [
+        5,
+        7
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        7,
+        4
+      ],
+      "cell2": [
+        7,
+        5
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        5,
+        5
+      ],
+      "cell2": [
+        6,
+        5
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        6,
+        7
+      ],
+      "cell2": [
+        7,
+        7
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        7,
+        1
+      ],
+      "cell2": [
+        7,
+        2
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        0,
+        5
+      ],
+      "cell2": [
+        0,
+        6
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        5,
+        0
+      ],
+      "cell2": [
+        5,
+        1
+      ]
+    }
+  ],
+  "theme": "color",
+  "metadata": {
+    "attempt": 492,
+    "total_locks": 15,
+    "equal_hints": 4,
+    "notequal_hints": 3,
+    "unique_checked": false,
+    "solutions": null,
+    "logic_steps": 49,
+    "trace_len": 49
+  }
+}

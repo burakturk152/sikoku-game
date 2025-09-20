@@ -1,0 +1,83 @@
+name: sikoku_tango
+description: SIKOKU - A new Flutter puzzle game.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  google_fonts: ^6.2.1
+  flutter_easyloading: ^3.0.5
+  auto_route: ^7.8.4
+  animated_text_kit: ^4.2.2
+  scrollable_positioned_list: ^0.3.8
+  shared_preferences: ^2.2.2
+  percent_indicator: ^4.2.3
+  stop_watch_timer: ^3.2.0
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  flutter_layout_grid: ^2.0.0
+
+  table_calendar: ^3.0.9
+  flutter_local_notifications: ^17.2.1
+  timezone: ^0.9.4
+  window_manager: ^0.3.8
+  audioplayers: ^6.0.0
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.7
+  auto_route_generator: ^7.3.2
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/data/
+    - assets/data/stage1/
+    - assets/data/stage2/
+    - assets/daily/
+    - assets/avatar/
+    - assets/weekly/
+    - assets/audio/
+
+# l10n ayarları
+gen_l10n:
+  arb-dir: lib/l10n
+  template-arb-file: app_en.arb
+  output-localization-file: app_localizations.dart
+  output-class: AppLocalizations
+  synthetic-package: false
+  nullable-getter: false
+  use-escaping: true
+
+# Launcher Icons ayarları
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo2.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/images/logo2.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/images/logo2.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/images/logo2.png"

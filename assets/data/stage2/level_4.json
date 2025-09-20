@@ -1,0 +1,259 @@
+{
+  "level": 4,
+  "difficulty": "normal",
+  "size": 6,
+  "puzzle": [
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      }
+    ],
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      }
+    ],
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      }
+    ],
+    [
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      }
+    ],
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      }
+    ],
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      }
+    ]
+  ],
+  "solution": [
+    [
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle"
+    ],
+    [
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square"
+    ],
+    [
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle"
+    ],
+    [
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square"
+    ],
+    [
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square"
+    ],
+    [
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle"
+    ]
+  ],
+  "hints": [
+    {
+      "type": "equal",
+      "cell1": [
+        1,
+        4
+      ],
+      "cell2": [
+        1,
+        5
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        2,
+        2
+      ],
+      "cell2": [
+        2,
+        3
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        3,
+        3
+      ],
+      "cell2": [
+        4,
+        3
+      ]
+    }
+  ],
+  "theme": "color",
+  "metadata": {
+    "attempt": 8,
+    "total_locks": 9,
+    "equal_hints": 2,
+    "notequal_hints": 1,
+    "unique_checked": false,
+    "solutions": null,
+    "logic_steps": 27,
+    "trace_len": 27
+  }
+}

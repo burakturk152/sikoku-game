@@ -1,0 +1,1296 @@
+{
+  "level": 34,
+  "difficulty": "normal",
+  "size": 12,
+  "puzzle": [
+    [
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      }
+    ],
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      }
+    ],
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      }
+    ],
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      }
+    ],
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      }
+    ],
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      }
+    ],
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      }
+    ],
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      }
+    ],
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      }
+    ],
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      }
+    ],
+    [
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "blue_square",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "yellow_triangle",
+        "locked": true
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      }
+    ],
+    [
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      },
+      {
+        "value": "",
+        "locked": false
+      }
+    ]
+  ],
+  "solution": [
+    [
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle"
+    ],
+    [
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square"
+    ],
+    [
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle"
+    ],
+    [
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle"
+    ],
+    [
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square"
+    ],
+    [
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square"
+    ],
+    [
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle"
+    ],
+    [
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square"
+    ],
+    [
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle"
+    ],
+    [
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square"
+    ],
+    [
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle"
+    ],
+    [
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "yellow_triangle",
+      "blue_square",
+      "yellow_triangle",
+      "blue_square",
+      "blue_square"
+    ]
+  ],
+  "hints": [
+    {
+      "type": "equal",
+      "cell1": [
+        10,
+        5
+      ],
+      "cell2": [
+        10,
+        6
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        7,
+        3
+      ],
+      "cell2": [
+        8,
+        3
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        10,
+        2
+      ],
+      "cell2": [
+        11,
+        2
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        4,
+        8
+      ],
+      "cell2": [
+        4,
+        9
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        6,
+        5
+      ],
+      "cell2": [
+        7,
+        5
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        8,
+        10
+      ],
+      "cell2": [
+        9,
+        10
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        0,
+        1
+      ],
+      "cell2": [
+        1,
+        1
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        5,
+        7
+      ],
+      "cell2": [
+        6,
+        7
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        10,
+        9
+      ],
+      "cell2": [
+        11,
+        9
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        9,
+        1
+      ],
+      "cell2": [
+        9,
+        2
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        8,
+        9
+      ],
+      "cell2": [
+        9,
+        9
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        3,
+        6
+      ],
+      "cell2": [
+        3,
+        7
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        1,
+        4
+      ],
+      "cell2": [
+        2,
+        4
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        4,
+        10
+      ],
+      "cell2": [
+        5,
+        10
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        0,
+        6
+      ],
+      "cell2": [
+        0,
+        7
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        6,
+        8
+      ],
+      "cell2": [
+        6,
+        9
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        5,
+        5
+      ],
+      "cell2": [
+        5,
+        6
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        4,
+        0
+      ],
+      "cell2": [
+        5,
+        0
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        9,
+        1
+      ],
+      "cell2": [
+        10,
+        1
+      ]
+    },
+    {
+      "type": "equal",
+      "cell1": [
+        7,
+        3
+      ],
+      "cell2": [
+        7,
+        4
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        9,
+        6
+      ],
+      "cell2": [
+        10,
+        6
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        0,
+        10
+      ],
+      "cell2": [
+        1,
+        10
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        8,
+        3
+      ],
+      "cell2": [
+        8,
+        4
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        4,
+        9
+      ],
+      "cell2": [
+        4,
+        10
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        9,
+        9
+      ],
+      "cell2": [
+        10,
+        9
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        7,
+        7
+      ],
+      "cell2": [
+        7,
+        8
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        5,
+        5
+      ],
+      "cell2": [
+        6,
+        5
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        6,
+        9
+      ],
+      "cell2": [
+        7,
+        9
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        6,
+        6
+      ],
+      "cell2": [
+        6,
+        7
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        6,
+        3
+      ],
+      "cell2": [
+        7,
+        3
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        2,
+        7
+      ],
+      "cell2": [
+        3,
+        7
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        11,
+        5
+      ],
+      "cell2": [
+        11,
+        6
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        9,
+        5
+      ],
+      "cell2": [
+        9,
+        6
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        9,
+        3
+      ],
+      "cell2": [
+        10,
+        3
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        6,
+        6
+      ],
+      "cell2": [
+        7,
+        6
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        3,
+        8
+      ],
+      "cell2": [
+        3,
+        9
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        10,
+        11
+      ],
+      "cell2": [
+        11,
+        11
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        2,
+        3
+      ],
+      "cell2": [
+        2,
+        4
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        1,
+        2
+      ],
+      "cell2": [
+        2,
+        2
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        0,
+        8
+      ],
+      "cell2": [
+        1,
+        8
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        3,
+        11
+      ],
+      "cell2": [
+        4,
+        11
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        10,
+        7
+      ],
+      "cell2": [
+        11,
+        7
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        9,
+        10
+      ],
+      "cell2": [
+        10,
+        10
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        2,
+        8
+      ],
+      "cell2": [
+        3,
+        8
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        6,
+        11
+      ],
+      "cell2": [
+        7,
+        11
+      ]
+    },
+    {
+      "type": "not_equal",
+      "cell1": [
+        0,
+        11
+      ],
+      "cell2": [
+        1,
+        11
+      ]
+    }
+  ],
+  "theme": "color",
+  "metadata": {
+    "attempt": 13,
+    "total_locks": 34,
+    "equal_hints": 20,
+    "notequal_hints": 26,
+    "unique_checked": false,
+    "solutions": null,
+    "logic_steps": 110,
+    "trace_len": 110
+  }
+}

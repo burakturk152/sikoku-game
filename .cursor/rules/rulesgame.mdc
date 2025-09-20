@@ -1,0 +1,78 @@
+---
+description: |
+  Bu projede grid yapısı üzerine kenarlara mavi|sarı formatında dinamik sayaçlar eklenecek. Bu sayaçlar her satırın başına ve sonuna, her sütunun üstüne ve altına eklenecek.
+  - Sayaçlar griddeki blue-tile (mavi) ve yellow-tile (sarı) kutulara göre otomatik hesaplanmalı.
+  - Bir hücreye mavi veya sarı kutu eklendiğinde ya da silindiğinde sayaçlar anında güncellenmeli.
+  - Sayı formatı "mavi|sarı" olacak. Bu sadece yazıdır, renkle gösterme.
+  - CSS değil, mobil uygulama için Flutter kullanılıyor. Görselde kayma olmaması için px değil yüzde, Expanded, Flexible, GridView gibi responsive sistemler kullanılmalı.
+  - HER ŞEYİN BOYUTU RESPONSIVE OLACAK! Butonlar, yazılar, ikonlar, çemberler, her şey! Sabit pixel YOK!
+  - Ekran büyüdüğünde her şey büyümeli, ekran küçüldüğünde her şey küçülmeli.
+  - Expanded, Flexible, LayoutBuilder kullanarak TÜM boyutları responsive yapılmalı.
+  - Tüm grid yapısı bozulmadan korunmalı. Margin/padding gibi dış müdahaleler ekranı bozmayacak şekilde yapılmalı.
+  - Her bölümün (puzzle) çözüm sistemi ayrı tutulacak. Tek bir çözüm tüm bölümleri kapsamayacak.
+  - Kod okunabilir ve sade olmalı. Fonksiyonlar ayrılmalı. Gereksiz tekrar olmayacak.
+  - Gerekirse sayaçlar ".counter" benzeri ayrı bir class veya widget ile stilize edilebilir.
+  - Oyun başında bazı hücreler önceden doldurulmuş (pre-filled) şekilde gelir. Bu hücreler:
+  - Tıklanamaz.
+  - Renkleri değiştirilemez.
+  - Silinemez.
+  - Üzerine yeni kutu eklenemez.
+  Bu hücreler sabittir ve "locked-tile" gibi ayrı bir sınıfla işaretlenmelidir. Diğer kutulardan kod içinde ayırt edilmeli ve kullanıcıdan etkilenmemelidir.
+
+globs:
+  - "**/*.dart"
+alwaysApply: true
+---
+
+# Puzzle Game Rules
+
+## Hints Sembolleri Ayarları
+
+### Çember Ayarları
+- **Çember Yarıçapı**: `cellSize * 0.25`
+- **Çember Arka Plan Rengi**: `Color(0xFFF5F5F5)` (Kırık beyaz, saydam değil)
+- **Çember Kenarlık Rengi**: `Colors.white`
+- **Çember Kenarlık Kalınlığı**: `2.0`
+
+### Eşittir İşareti (=) Ayarları
+- **Font Boyutu**: `cellSize * 0.35`
+- **Font Ağırlığı**: `FontWeight.w900` (Çok kalın)
+- **Renk**: `Colors.black`
+- **Yatay Bağlantılar**: Sola kaydırılmış (`- cellSize * 0.05`)
+- **Dikey Bağlantılar**: 90 derece döndürülüp yukarıya kaydırılmış (`- cellSize * 0.05`)
+
+### Şimşek Sembolü (⚡) Ayarları
+- **Font Boyutu**: `cellSize * 0.3`
+- **Font Ağırlığı**: `FontWeight.w900` (Kalın)
+- **Renk**: `Colors.black`
+- **Konumlandırma**: Tam ortalanmış
+
+### Genel Kurallar
+- Sadece yan yana veya alt alta olan hücreler için sembol göster
+- Diagonal veya uzakta olanlar için sembol gösterilmemeli
+- Semboller etkileşimli değil, sadece görsel
+- Çemberlerin içi tamamen dolu olmalı
+- Semboller çemberlerin tam ortasında olmalı
+
+### Döndürme Mantığı
+- **Yatay Bağlantılar**: `=` sembolü normal şekilde, sola kaydırılmış
+- **Dikey Bağlantılar**: `=` sembolü 90 derece döndürülüp yukarıya kaydırılmış
+- **Not Equal**: `⚡` sembolü her durumda aynı şekilde, tam ortada
+
+### Örnek Kullanım
+```
+Hint 0: [0,0] ↔ [1,0] → Yatay = (sola kaydırılmış)
+Hint 1: [0,0] ↔ [0,1] → Dikey ⚡ (ortada)
+Hint 2: [3,0] ↔ [3,1] → Dikey ⚡ (ortada)
+Hint 3: [0,1] ↔ [1,1] → Yatay = (sola kaydırılmış)
+Hint 4: [3,3] ↔ [4,3] → Yatay ⚡ (ortada)
+Hint 5: [2,2] ↔ [2,3] → Dikey ⚡ (ortada)
+```
+
+## Dosya Parçalama Kuralı
+- **Sürekli dosyaları parçalara bölerek çalışılacak**
+- **Büyük dosyalar (200+ satır) otomatik olarak parçalanacak**
+- **Her parça ayrı dosyaya taşınacak ve import edilecek**
+- **Ana dosyalar sadece controller logic içerecek**
+- **Widget'lar, service'ler, utility'ler ayrı dosyalara taşınacak**
+- **Import'lar düzenli tutulacak**
